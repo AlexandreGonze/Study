@@ -3,9 +3,32 @@ body{
     margin: 0;
 }
 .caixa{
+    position: relative;
     width: 940px;
     margin: 0 auto;
+    padding: 10px;
 }
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;    
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #c78c19;
+    text-decoration: dashed;
+}
+
 #banner{
     width: 100%;
 }
@@ -17,6 +40,9 @@ body{
 }
 .titulo-centralizado{
     text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
 }
 
 p{
@@ -40,4 +66,14 @@ ul{
 
 .imgbeneficios{
     width: 50%;
+}
+footer{
+    text-align: center;
+    background: url(bg.jpg);
+    padding: 40px 0;
+}
+.copyright{
+    color: #FFFFFF;
+    margin: 20px 0 0;
+    font-size: 13px;
 }
