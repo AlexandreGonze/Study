@@ -1,6 +1,5 @@
-body{
-    background-color: #CCCCCC;
-    margin: 0;
+header{
+    background-color: #bbbbbb;
 }
 .caixa{
     position: relative;
@@ -11,7 +10,7 @@ body{
 nav{
     position: absolute;
     top: 110px;
-    right: 0;    
+    right: 0;
 }
 nav li{
     display: inline;
@@ -33,6 +32,8 @@ nav a:hover{
     width: 100%;
 }
 .principal{
+    width: 940px;
+    margin: 0 auto;
     padding: 30px;
 }
 .titulo-principal{
@@ -52,14 +53,11 @@ em strong{
     color: #FF0000;
 }
 .beneficios{
+    width: 940px;
+    margin: 0 auto;
     padding: 20px;
 }
-ul{
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-}
+
 .itens{
     font-style: italic;
 }
