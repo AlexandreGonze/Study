@@ -2,7 +2,10 @@ body{
     background-color: #CCCCCC;
     margin: 0;
 }
-
+.caixa{
+    width: 940px;
+    margin: 0 auto;
+}
 #banner{
     width: 100%;
 }
